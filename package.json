@@ -31,7 +31,10 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && nyc ava"
+    "test": "xo && ava",
+    "coverage": "nyc --reporter=lcov --reporter=text-lcov ava",
+    "precoveralls": "npm run coverage",
+    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "main": "cli.js",
   "files": [
