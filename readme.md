@@ -39,7 +39,7 @@ $ muxml-cli --help
 
 ## Relevant
 
-* [API for this module](https://github.com/t1st3/muxml)
+* [muxml](https://github.com/t1st3/muxml) | API for this module
 
 
 ## License
