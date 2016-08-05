@@ -9,6 +9,7 @@
 $ npm install --save muxml-cli
 ```
 
+
 ## CLI
 
 ```
@@ -40,6 +41,7 @@ $ muxml-cli --help
 ## Relevant
 
 * [muxml](https://github.com/t1st3/muxml) | API for this module
+* [gulp-muxml](https://github.com/t1st3/gulp-muxml) | this module as a [`gulp`](http://gulpjs.com/) plugin
 
 
 ## License
