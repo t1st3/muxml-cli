@@ -23,9 +23,6 @@
     "email": "contact@tiste.org",
     "url": "tiste.org"
   },
-  "bugs": {
-    "url": "https://github.com/t1st3/muxml-cli/issues"
-  },
   "bin": "cli.js",
   "engines": {
     "node": ">=4"
