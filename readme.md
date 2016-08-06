@@ -38,10 +38,11 @@ $ muxml-cli --help
     ponies & rainbows
 ```
 
-## Relevant
+## Related
 
 * [muxml](https://github.com/t1st3/muxml) | API for this module
 * [gulp-muxml](https://github.com/t1st3/gulp-muxml) | this module as a [`gulp`](http://gulpjs.com/) plugin
+* [grunt-muxml](https://github.com/t1st3/grunt-muxml) | this module as a [`Grunt`](http://gruntjs.com/) plugin
 
 
 ## License
