@@ -6,7 +6,6 @@ const fs = require('fs');
 const meow = require('meow');
 const updateNotifier = require('update-notifier');
 const intoStream = require('into-stream');
-const isStream = require('is-stream');
 const muxml = require('muxml').default;
 
 const cli = meow(`
