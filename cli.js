@@ -43,6 +43,7 @@ updateNotifier({pkg: cli.pkg}).notify();
 const input = cli.input;
 let inputStream;
 let outputStream = process.stdout;
+let hasData = false;
 
 if (cli.flags && cli.flags.output) {
 	outputStream = fs.createWriteStream(cli.flags.output);
@@ -52,11 +53,8 @@ if (cli.flags && cli.flags.input) {
 	inputStream = fs.createReadStream(cli.flags.input);
 } else if (input.length > 0) {
 	inputStream = intoStream(input);
-} else if (isStream(process.stdin)) {
-	inputStream = process.stdin;
 } else {
-	process.stderr.write('Please specify some XML. For help, run `muxml-cli --help`.');
-	process.exit(1);
-}
+	inputStream = process.stdin;
+} 
 
 inputStream.pipe(muxml(cli.flags)).pipe(outputStream);
