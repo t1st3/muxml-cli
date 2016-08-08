@@ -1,6 +1,8 @@
 
+import fs from 'fs';
 import test from 'ava';
 import execa from 'execa';
+import rimraf from 'rimraf';
 
 const fixture = [
 	'<a>',
@@ -78,8 +80,19 @@ test('filter', async t => {
 	])).stdout, filterFixture);
 });
 
-test('file', async t => {
+test('input', async t => {
 	t.is((await execa('./cli.js', [
 		'--input=fixture.xml', '--no-pretty'
 	])).stdout, fileFixture);
+});
+
+test('output', async t => {
+	await execa('./cli.js', [
+		'<c><![CDATA[ my-cdata ]]><b>a</b></c>',
+		'--output=tmp.xml', '--no-pretty'
+	]).then(function () {
+		t.is(fileFixture, fs.readFileSync('tmp.xml').toString());
+	}).then(function () {
+		rimraf('tmp.xml', function () {});
+	});
 });
