@@ -32,7 +32,7 @@ const cli = meow(`
 
 		$ muxml-cli '<a id="42"><span>foo</span></a>' --no-pretty > output.xml
 
-		$ muxml-cli --file=input.xml --no-pretty > output.xml
+		$ muxml-cli --input=input.xml --no-pretty --output=output.xml
 
 		$ echo '<a id="42"><span>foo</span></a>' | muxml-cli --no-pretty > output.xml
 
