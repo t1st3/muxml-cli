@@ -1,6 +1,13 @@
 ## Change Log
 
+### 0.1.3 (2016/08/08 20:46 +00:00)
+- [5b11942](https://github.com/t1st3/muxml-cli/commit/5b1194293b5799331e0ecd8508e6175691c041bd) fix(cli): --help example (@t1st3)
+- [c307263](https://github.com/t1st3/muxml-cli/commit/c3072637e1d53543e6f9dfa6f5d1e08a69d63963) refactor: remove moot scenarii (@t1st3)
+- [373bb12](https://github.com/t1st3/muxml-cli/commit/373bb12259aede757147753855210f9f74015707) test: output option (@t1st3)
+- [e400f21](https://github.com/t1st3/muxml-cli/commit/e400f210ea67a42f2977342c94aef25f4823f903) docs(readme): fix example (@t1st3)
+
 ### 0.1.2 (2016/08/08 12:00 +00:00)
+- [9177c66](https://github.com/t1st3/muxml-cli/commit/9177c666539910c162998c21100b4aca544e4f13) chore: v0.1.2 (@t1st3)
 - [ceb39e0](https://github.com/t1st3/muxml-cli/commit/ceb39e07819bbbe13a2f86cd58a3a002dfe56561) docs(readme): better description and examples (@t1st3)
 - [8821852](https://github.com/t1st3/muxml-cli/commit/8821852524a815ba34919e14266a253da7639ad0) Merge branch 'master' of github.com:t1st3/muxml-cli (@t1st3)
 - [#2](https://github.com/t1st3/muxml-cli/pull/2) Update ava to version 0.16.0 🚀 (@t1st3)
