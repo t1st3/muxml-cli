@@ -1,6 +1,11 @@
 ## Change Log
 
-### 0.1.3 (2016/08/08 20:46 +00:00)
+### 0.1.4 (2016/08/08 21:00 +00:00)
+- [2948385](https://github.com/t1st3/muxml-cli/commit/2948385c942ecc782df0b67e55835e3fcaf8d967) fix: xo warnings (@t1st3)
+- [af61a54](https://github.com/t1st3/muxml-cli/commit/af61a5431f7f7eb72d09c75d1230a75489baa6ac) fix: remove dep to is-stream (@t1st3)
+
+### 0.1.3 (2016/08/08 20:47 +00:00)
+- [4d9b7a5](https://github.com/t1st3/muxml-cli/commit/4d9b7a509f5b426fccd4096c66b4c7c185ac1dc7) chore: v0.1.3 (@t1st3)
 - [5b11942](https://github.com/t1st3/muxml-cli/commit/5b1194293b5799331e0ecd8508e6175691c041bd) fix(cli): --help example (@t1st3)
 - [c307263](https://github.com/t1st3/muxml-cli/commit/c3072637e1d53543e6f9dfa6f5d1e08a69d63963) refactor: remove moot scenarii (@t1st3)
 - [373bb12](https://github.com/t1st3/muxml-cli/commit/373bb12259aede757147753855210f9f74015707) test: output option (@t1st3)
