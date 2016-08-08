@@ -42,7 +42,6 @@ updateNotifier({pkg: cli.pkg}).notify();
 const input = cli.input;
 let inputStream;
 let outputStream = process.stdout;
-let hasData = false;
 
 if (cli.flags && cli.flags.output) {
 	outputStream = fs.createWriteStream(cli.flags.output);
@@ -54,6 +53,6 @@ if (cli.flags && cli.flags.input) {
 	inputStream = intoStream(input);
 } else {
 	inputStream = process.stdin;
-} 
+}
 
 inputStream.pipe(muxml(cli.flags)).pipe(outputStream);
