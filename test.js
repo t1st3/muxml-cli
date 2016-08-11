@@ -90,9 +90,9 @@ test('output', async t => {
 	await execa('./cli.js', [
 		'<c><![CDATA[ my-cdata ]]><b>a</b></c>',
 		'--output=tmp.xml', '--no-pretty'
-	]).then(function () {
+	]).then(() => {
 		t.is(fileFixture, fs.readFileSync('tmp.xml').toString());
-	}).then(function () {
-		rimraf('tmp.xml', function () {});
+	}).then(() => {
+		rimraf('tmp.xml', () => {});
 	});
 });

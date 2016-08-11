@@ -4,6 +4,25 @@
   "description": "Streaming XML parser and formatter",
   "license": "MIT",
   "repository": "t1st3/muxml-cli",
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "tiste.org"
+  },
+  "main": "cli.js",
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "coverage": "nyc --reporter=lcov --reporter=text-lcov ava",
+    "precoveralls": "npm run coverage",
+    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "files": [
+    "cli.js"
+  ],
   "keywords": [
     "cli-app",
     "cli",
@@ -18,25 +37,6 @@
     "transform",
     "through"
   ],
-  "author": {
-    "name": "t1st3",
-    "email": "contact@tiste.org",
-    "url": "tiste.org"
-  },
-  "bin": "cli.js",
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava",
-    "coverage": "nyc --reporter=lcov --reporter=text-lcov ava",
-    "precoveralls": "npm run coverage",
-    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
-  },
-  "main": "cli.js",
-  "files": [
-    "cli.js"
-  ],
   "dependencies": {
     "into-stream": "^2.0.1",
     "meow": "^3.7.0",
@@ -44,17 +44,20 @@
     "update-notifier": "^1.0.2"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "*",
     "coveralls": "^2.11.11",
     "execa": "^0.4.0",
     "nyc": "^7.1.0",
     "rimraf": "^2.5.4",
-    "xo": "^0.16.0"
+    "xo": "*"
   },
   "nyc": {
     "reporter": [
       "lcov",
       "text"
     ]
+  },
+  "xo": {
+    "esnext": true
   }
 }
