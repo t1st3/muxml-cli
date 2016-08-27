@@ -38,7 +38,7 @@
     "through"
   ],
   "dependencies": {
-    "into-stream": "^2.0.1",
+    "into-stream": "^3.0.0",
     "meow": "^3.7.0",
     "muxml": "^0.2.0",
     "update-notifier": "^1.0.2"
