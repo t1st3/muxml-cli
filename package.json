@@ -40,14 +40,14 @@
   "dependencies": {
     "into-stream": "^3.0.0",
     "meow": "^3.7.0",
-    "muxml": "^0.2.0",
+    "muxml": "^0.2.2",
     "update-notifier": "^1.0.2"
   },
   "devDependencies": {
     "ava": "*",
-    "coveralls": "^2.11.11",
+    "coveralls": "^2.11.14",
     "execa": "^0.4.0",
-    "nyc": "^8.1.0",
+    "nyc": "^8.3.0",
     "rimraf": "^2.5.4",
     "xo": "*"
   },
