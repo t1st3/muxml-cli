@@ -1,4 +1,3 @@
-
 import fs from 'fs';
 import test from 'ava';
 import execa from 'execa';

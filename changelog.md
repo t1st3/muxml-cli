@@ -1,6 +1,17 @@
 ## Change Log
 
-### 0.1.4 (2016/08/08 21:00 +00:00)
+### 0.1.5 (2016/09/21 10:12 +00:00)
+- [c778b3c](https://github.com/t1st3/muxml-cli/commit/c778b3c51283cd517a7888d876d45a76c089cb9d) chore(package): bump deps (@t1st3)
+- [#6](https://github.com/t1st3/muxml-cli/pull/6) Update into-stream to version 3.0.0 🚀 (@t1st3)
+- [54c1e8e](https://github.com/t1st3/muxml-cli/commit/54c1e8ead2b5f368638fa376bfb4ca381ee3b2d2) chore(package): update into-stream to version 3.0.0 (@greenkeeperio-bot)
+- [#5](https://github.com/t1st3/muxml-cli/pull/5) Update nyc to version 8.1.0 🚀 (@t1st3)
+- [c74d6ef](https://github.com/t1st3/muxml-cli/commit/c74d6ef2d10707f7e72e677de2d88cd1a2151083) chore(package): update nyc to version 8.1.0 (@greenkeeperio-bot)
+- [#3](https://github.com/t1st3/muxml-cli/pull/3) Update muxml to version 0.2.0 🚀 (@t1st3)
+- [8ec3e13](https://github.com/t1st3/muxml-cli/commit/8ec3e13d125d1730dc9b38e37406c1ab1d7ab673) chore(package): update muxml to version 0.2.0 (@greenkeeperio-bot)
+- [efbb143](https://github.com/t1st3/muxml-cli/commit/efbb143eb084f3771759c8de1fd1956fd6672172) chore: lint project with clinton (@t1st3)
+
+### 0.1.4 (2016/08/08 21:04 +00:00)
+- [cc54573](https://github.com/t1st3/muxml-cli/commit/cc545737f41ed3b6a1d916ebeaee43d0620858be) v0.1.4 (@t1st3)
 - [2948385](https://github.com/t1st3/muxml-cli/commit/2948385c942ecc782df0b67e55835e3fcaf8d967) fix: xo warnings (@t1st3)
 - [af61a54](https://github.com/t1st3/muxml-cli/commit/af61a5431f7f7eb72d09c75d1230a75489baa6ac) fix: remove dep to is-stream (@t1st3)
 
