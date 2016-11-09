@@ -4,7 +4,7 @@
 
 Thin wrapper around [`muxml`](https://github.com/t1st3/muxml) to make it a [CLI](https://en.wikipedia.org/wiki/Command-line_interface) app.
 
-Also available as a [gulp](https://github.com/t1st3/gulp-muxml) / [Grunt](https://github.com/t1st3/grunt-muxml) / [Broccoli](https://github.com/t1st3/broccoli-muxml) plugin.
+Also available as a [gulp](https://github.com/t1st3/gulp-muxml) / [Grunt](https://github.com/t1st3/grunt-muxml) plugin.
 
 
 ## Install
@@ -48,7 +48,6 @@ $ muxml-cli --help
 * [muxml](https://github.com/t1st3/muxml) | API for this module
 * [gulp-muxml](https://github.com/t1st3/gulp-muxml) | this module as a [`gulp`](http://gulpjs.com/) plugin
 * [grunt-muxml](https://github.com/t1st3/grunt-muxml) | this module as a [`Grunt`](http://gruntjs.com/) plugin
-* [broccoli-muxml](https://github.com/t1st3/broccoli-muxml) | this module as a [`Broccoli`](http://broccolijs.com/) plugin
 
 
 ## License
