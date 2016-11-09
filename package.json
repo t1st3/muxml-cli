@@ -46,10 +46,10 @@
   "devDependencies": {
     "ava": "*",
     "coveralls": "^2.11.14",
-    "execa": "^0.4.0",
+    "execa": "^0.5.0",
     "nyc": "^8.3.0",
     "rimraf": "^2.5.4",
-    "xo": "*"
+    "xo": "0.17.0"
   },
   "nyc": {
     "reporter": [
