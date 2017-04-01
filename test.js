@@ -11,8 +11,6 @@ const fixture = [
 	'</a>'
 ].join('\n');
 
-// const minFixture = '<a><b>c</b></a>';
-
 const commentFixture = [
 	'<a><!-- foo --><b>c</b></a>'
 ].join('\n');
