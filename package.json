@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "ava": "*",
-    "coveralls": "^2.11.14",
+    "coveralls": "^3.0.0",
     "execa": "^0.8.0",
     "nyc": "^11.0.1",
     "rimraf": "^2.5.4",
