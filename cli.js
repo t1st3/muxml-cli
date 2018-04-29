@@ -39,7 +39,7 @@ const cli = meow(`
 
 updateNotifier({pkg: cli.pkg}).notify();
 
-const input = cli.input;
+const {input} = cli;
 let inputStream;
 let outputStream = process.stdout;
 
