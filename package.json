@@ -38,10 +38,10 @@
     "through"
   ],
   "dependencies": {
-    "into-stream": "^4.0.0",
+    "into-stream": "^5.1.0",
     "meow": "^5.0.0",
-    "muxml": "^1.0.0",
-    "update-notifier": "^2.0.0"
+    "muxml": "^2.0.1",
+    "update-notifier": "^3.0.0"
   },
   "devDependencies": {
     "ava": "1.4.1",
@@ -56,8 +56,5 @@
       "lcov",
       "text"
     ]
-  },
-  "xo": {
-    "esnext": true
   }
 }
