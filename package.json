@@ -44,7 +44,7 @@
     "update-notifier": "^3.0.0"
   },
   "devDependencies": {
-    "ava": "1.4.1",
+    "ava": "2.0.0",
     "codecov": "^3.0.0",
     "execa": "^1.0.0",
     "nyc": "^14.0.0",
