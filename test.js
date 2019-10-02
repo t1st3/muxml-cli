@@ -32,7 +32,7 @@ test('main', async t => {
 });
 
 test('stdin', async t => {
-	t.is((await execa.shell('echo "<a><b>c</b></a>" | ./cli.js')).stdout, fixture);
+	t.is((await execa.command('echo "<a><b>c</b></a>" | ./cli.js', {shell: true})).stdout, fixture);
 });
 
 test('cdata', async t => {
