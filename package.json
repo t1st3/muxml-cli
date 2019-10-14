@@ -46,7 +46,7 @@
   "devDependencies": {
     "ava": "^2.4.0",
     "codecov": "^3.0.0",
-    "execa": "^2.0.4",
+    "execa": "^3.0.0",
     "nyc": "^14.1.1",
     "rimraf": "^3.0.0",
     "xo": "0.25.3"
