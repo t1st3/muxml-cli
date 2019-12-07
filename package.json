@@ -39,7 +39,7 @@
   ],
   "dependencies": {
     "into-stream": "^5.1.0",
-    "meow": "^5.0.0",
+    "meow": "^6.0.0",
     "muxml": "^2.0.1",
     "update-notifier": "^3.0.0"
   },
