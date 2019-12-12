@@ -41,7 +41,7 @@
     "into-stream": "^5.1.0",
     "meow": "^6.0.0",
     "muxml": "^2.0.1",
-    "update-notifier": "^3.0.0"
+    "update-notifier": "^4.0.0"
   },
   "devDependencies": {
     "ava": "^2.4.0",
